@@ -269,10 +269,14 @@ body {
   color: var(--secondary-text-color);
 }
 
-ul {
+.soft_skills {
   list-style-type: disc;
   -webkit-columns: 2;
   -moz-columns: 2;
   columns: 2;
   list-style-position: inside;
+}
+
+li {
+  margin-bottom: 3px;
 }
