@@ -80,7 +80,6 @@ body {
   color: var(--primary-text-color);
   margin-bottom: 15px;
   text-decoration-color: var(--text-decoration-color);
-  text-decoration-line: underline;
 }
 
 .contact-info__sub-header {
@@ -127,8 +126,8 @@ body {
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -163,7 +162,7 @@ body {
 }
 
 .skills__header {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   text-align: center;
   margin-bottom: 15px;
 }
@@ -181,7 +180,7 @@ body {
 }
 
 .experiences__header {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 20px;
 }
@@ -233,7 +232,7 @@ body {
 }
 
 .additional-info__education-header {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 20px;
 }
@@ -260,11 +259,77 @@ body {
 }
 
 .additional-info__languages-header {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 20px;
 }
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+.soft_skills {
+  list-style-type: disc;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  list-style-position: inside;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gradient-background {
+  background: linear-gradient(270deg, #24d2a5, #24d2cc, #24d242, #34e551);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
