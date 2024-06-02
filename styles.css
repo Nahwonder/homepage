@@ -280,3 +280,13 @@ body {
 li {
   margin-bottom: 3px;
 }
+
+a {
+  text-decoration: none;
+}
+footer {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
